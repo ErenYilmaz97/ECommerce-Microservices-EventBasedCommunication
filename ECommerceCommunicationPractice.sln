@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DFA56516-FC21-4A27-9AF7-F3B4C6A6DB29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{814FF53F-FB43-4E00-BC9A-C337BE603D02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.PaymentService", "src\Services\ECommerce.PaymentService\ECommerce.PaymentService.csproj", "{260D9FFE-2B76-48FD-BEFB-1B3955D1DEDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.StockService", "src\Services\ECommerce.StockService\ECommerce.StockService.csproj", "{8F5F8A8A-BDE7-4D9E-AD39-25BB9A420A62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.OrderService", "src\Services\ECommerce.OrderService\ECommerce.OrderService.csproj", "{4412D652-4E76-4FDA-AA61-6377546A73F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.NotificationService", "src\Services\ECommerce.NotificationService\ECommerce.NotificationService.csproj", "{5865AF58-050F-41C0-AFD7-6173D2AE6B67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.EventPrrocessor", "ECommerce.EventPrrocessor\ECommerce.EventPrrocessor.csproj", "{9DDF6898-0874-4E97-AD78-2806D7F4AD11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{260D9FFE-2B76-48FD-BEFB-1B3955D1DEDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{260D9FFE-2B76-48FD-BEFB-1B3955D1DEDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{260D9FFE-2B76-48FD-BEFB-1B3955D1DEDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{260D9FFE-2B76-48FD-BEFB-1B3955D1DEDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F5F8A8A-BDE7-4D9E-AD39-25BB9A420A62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F5F8A8A-BDE7-4D9E-AD39-25BB9A420A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F5F8A8A-BDE7-4D9E-AD39-25BB9A420A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F5F8A8A-BDE7-4D9E-AD39-25BB9A420A62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4412D652-4E76-4FDA-AA61-6377546A73F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4412D652-4E76-4FDA-AA61-6377546A73F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4412D652-4E76-4FDA-AA61-6377546A73F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4412D652-4E76-4FDA-AA61-6377546A73F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5865AF58-050F-41C0-AFD7-6173D2AE6B67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5865AF58-050F-41C0-AFD7-6173D2AE6B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5865AF58-050F-41C0-AFD7-6173D2AE6B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5865AF58-050F-41C0-AFD7-6173D2AE6B67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DDF6898-0874-4E97-AD78-2806D7F4AD11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DDF6898-0874-4E97-AD78-2806D7F4AD11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DDF6898-0874-4E97-AD78-2806D7F4AD11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DDF6898-0874-4E97-AD78-2806D7F4AD11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{814FF53F-FB43-4E00-BC9A-C337BE603D02} = {DFA56516-FC21-4A27-9AF7-F3B4C6A6DB29}
+		{260D9FFE-2B76-48FD-BEFB-1B3955D1DEDF} = {814FF53F-FB43-4E00-BC9A-C337BE603D02}
+		{8F5F8A8A-BDE7-4D9E-AD39-25BB9A420A62} = {814FF53F-FB43-4E00-BC9A-C337BE603D02}
+		{4412D652-4E76-4FDA-AA61-6377546A73F6} = {814FF53F-FB43-4E00-BC9A-C337BE603D02}
+		{5865AF58-050F-41C0-AFD7-6173D2AE6B67} = {814FF53F-FB43-4E00-BC9A-C337BE603D02}
+		{9DDF6898-0874-4E97-AD78-2806D7F4AD11} = {DFA56516-FC21-4A27-9AF7-F3B4C6A6DB29}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76D2D503-7542-4373-A272-B66AAD6CD495}
+	EndGlobalSection
+EndGlobal
